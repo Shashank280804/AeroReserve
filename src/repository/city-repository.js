@@ -1,6 +1,6 @@
 const { City } = require("../models/index");
 
-class CityRepository {
+class cityRepository {
   async createCity({ name }) {
     try {
       const city = await City.create({ name });
@@ -14,7 +14,7 @@ class CityRepository {
   async getCity() {
     try {
       const city = await City.findByPk(cityId);
-      return City;
+      return city;
     } catch (error) {
       console.log("Something went wrong in the repository layer");
       throw { error };
@@ -48,4 +48,4 @@ class CityRepository {
   }
 }
 
-module.exports = CityRepository;
+module.exports = cityRepository;
