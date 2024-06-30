@@ -1,3 +1,5 @@
+//The role of repository is to interact with the database any other file wont interact with the database
+
 const { City } = require("../models/index");
 const { Op } = require('sequelize')
 class CityRepository {

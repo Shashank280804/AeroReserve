@@ -1,3 +1,7 @@
+//Intention to keep a controller is to get the request pass it 
+//to the backend and then when backend processes the request then pass the response or err to the frontend
+
+
 const   CityService  = require("../services/city-service");
 const CityRepository= require("../repository/city-repository")
 
