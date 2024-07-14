@@ -1,8 +1,6 @@
 //Services will have all the business logic
 
-
 const { CityRepository } = require("../repository/index");
-
 
 class CityService {
   constructor() {
@@ -40,8 +38,8 @@ class CityService {
 
   async getCity(cityId) {
     try {
-        const city = await this.cityRepository.getCity(cityId);
-        return city;
+      const city = await this.cityRepository.getCity(cityId);
+      return city;
     } catch (error) {
       console.log("Something went wrong at service layer");
       throw { error };
@@ -50,14 +48,15 @@ class CityService {
 
   async getAllCities(filter) {
     try {
-      const cities = await this.cityRepository.getAllCities({name:filter.name});
-      return cities; 
+      const cities = await this.cityRepository.getAllCities({
+        name: filter.name,
+      });
+      return cities;
     } catch (error) {
       console.log("Something went wrong at service layer", error);
-      throw error; 
+      throw error;
     }
   }
-  
 }
 
 module.exports = CityService;
