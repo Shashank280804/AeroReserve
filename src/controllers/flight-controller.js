@@ -1,7 +1,5 @@
 const { FlightService } = require("../services/index");
-const {SuccessCodes}=require('../utils/error-codes')
-
-
+const { SuccessCodes } = require("../utils/error-codes");
 
 const flightService = new FlightService();
 
@@ -48,7 +46,7 @@ const getAll = async (req, res) => {
     return res.status(500).json({
       data: {},
       success: false,
-      message: "Not able to fetch the flights", 
+      message: "Not able to fetch the flights",
       err: error,
     });
   }
