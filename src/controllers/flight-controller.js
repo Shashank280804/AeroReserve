@@ -37,7 +37,7 @@ const create = async (req, res) => {
 const getAll = async (req, res) => {
   try {
     const response = await flightService.getFlightData(req.query);
-    return res.status(201).json({
+    return res.status(SuccessCodes.OK).json({
       data: response,
       success: true,
       err: {},
@@ -48,7 +48,7 @@ const getAll = async (req, res) => {
     return res.status(500).json({
       data: {},
       success: false,
-      message: "Not able to fetch the flights", // Corrected error message
+      message: "Not able to fetch the flights", 
       err: error,
     });
   }
