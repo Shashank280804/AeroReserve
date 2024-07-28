@@ -26,7 +26,7 @@ class FlightService {
 
     async getFlightData(data) {
         try {
-            const flights = await this.flightRepository.getAllFlights(data);  // Fixed typo
+            const flights = await this.flightRepository.getAllFlights(data);  
             return flights;
         } catch (error) {
             console.log("Something went wrong in the service layer:", error);
