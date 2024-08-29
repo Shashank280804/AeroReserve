@@ -63,7 +63,6 @@ The Flight Management System is a comprehensive web application designed to stre
 - **User Authentication & Authorization:** Secure user login using bcryptjs for password hashing and JWT for token-based authentication.
 - **Real-time Updates:** Instant notifications and updates for flight status using Socket.io.
 - **Data Visualization:** Integrated graphs and charts for visual representation of flight data.
-- **Cloud Deployment:** Deployed on AWS with secure environment variable configuration.
 
 ## Tech Stack
 
@@ -79,7 +78,7 @@ The Flight Management System is a comprehensive web application designed to stre
 ## Installation
 
 - Clone the repository:     
-  `git clone https://github.com/your-username           flight-management-system.git`
+  `git clone https://github.com/your-usernameflight-management-system.git`
 
 - Install dependencies:       
   `npm install`
