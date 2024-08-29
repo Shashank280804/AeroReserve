@@ -62,7 +62,7 @@ The Flight Management System is a comprehensive web application designed to stre
 - **City Management:** Manage city records to associate with airports and flights.
 - **User Authentication & Authorization:** Secure user login using bcryptjs for password hashing and JWT for token-based authentication.
 - **Real-time Updates:** Instant notifications and updates for flight status using Socket.io.
-- **Data Visualization:** Integrated graphs and charts for visual representation of flight data.
+
 
 ## Tech Stack
 
