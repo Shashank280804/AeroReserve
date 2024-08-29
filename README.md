@@ -78,7 +78,7 @@ The Flight Management System is a comprehensive web application designed to stre
 ## Installation
 
 - Clone the repository:     
-  `git clone https://github.com/your-usernameflight-management-system.git`
+  `git clone https://github.com/Shashank280804/FlightsAndSearchService.git`
 
 - Install dependencies:       
   `npm install`
