@@ -1,6 +1,6 @@
 
 # Overview
-The Flight Management System is a comprehensive web application designed to streamline the management of flights, airports, and cities. Developed as a Proof of Concept (POC), this project showcases modern web development practices using the MERN stack (MongoDB, Express.js, React, Node.js) with a focus on secure user authentication, real-time updates, and data visualization.
+The Flight Management System is a comprehensive web application designed to streamline the management of flights, airports, and cities. This project showcases modern web development practices using the MERN stack (MongoDB, Express.js, React, Node.js) with a focus on secure user authentication, real-time updates, and data visualization.
 
 # Project Architecture
 - **Routes:** Defined RESTful endpoints for managing flights, airports, and cities.
