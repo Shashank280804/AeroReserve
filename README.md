@@ -1,6 +1,6 @@
 
 # Overview
-The Flight Management System is a comprehensive web application designed to streamline the management of flights, airports, and cities. Developed as a Proof of Concept (POC), this project showcases modern web development practices using the MERN stack (MongoDB, Express.js, React, Node.js) with a focus on secure user authentication, real-time updates, and data visualization.
+The Flight Management System is a comprehensive web application designed to streamline the management of flights, airports, and cities. This project showcases modern web development practices with a focus on secure user authentication, real-time updates, and data visualization.
 
 # Project Architecture
 - **Routes:** Defined RESTful endpoints for managing flights, airports, and cities.
@@ -62,16 +62,11 @@ The Flight Management System is a comprehensive web application designed to stre
 - **City Management:** Manage city records to associate with airports and flights.
 - **User Authentication & Authorization:** Secure user login using bcryptjs for password hashing and JWT for token-based authentication.
 - **Real-time Updates:** Instant notifications and updates for flight status using Socket.io.
-- **Data Visualization:** Integrated graphs and charts for visual representation of flight data.
-- **Cloud Deployment:** Deployed on AWS with secure environment variable configuration.
+
 
 ## Tech Stack
 
-- **Node.js:** JavaScript runtime for server-side logic.          
-- **Express.js:** Web framework for building RESTful APIs.  
-- **MongoDB:** NoSQL database for flexible and scalable data storage.
-- **Mongoose:** ORM for MongoDB.  
-- **Socket.io:** Real-time bidirectional communication between client and server.  
+- **Node.js:** JavaScript runtime for server-side logic.              
 - **bcryptjs:** Library for hashing passwords and enhancing security.
 - **JWT:** Secure authentication and authorization.
 
@@ -79,7 +74,7 @@ The Flight Management System is a comprehensive web application designed to stre
 ## Installation
 
 - Clone the repository:     
-  `git clone https://github.com/your-username           flight-management-system.git`
+  `git clone https://github.com/Shashank280804/FlightsAndSearchService.git`
 
 - Install dependencies:       
   `npm install`
