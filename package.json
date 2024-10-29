@@ -4,7 +4,7 @@
   "description": "Microservices for Flight Crud",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon src/index"
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
