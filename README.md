@@ -36,7 +36,7 @@ The Flight Management System is a comprehensive web application designed to stre
 #### Get All Cities
 
 ```http
-  GET /api/v1/cities
+  GET /api/v1/city
 ```
 
 | Parameter         | Type     | Description                        |
@@ -47,7 +47,7 @@ The Flight Management System is a comprehensive web application designed to stre
 #### Create a City
 
 ```http
-  POST /api/v1/cities
+  POST /api/v1/city
 ```
 
 | Parameter         | Type     | Description                        |
