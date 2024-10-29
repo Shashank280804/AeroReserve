@@ -83,7 +83,7 @@ The Flight Management System is a comprehensive web application designed to stre
   `npm start`
 
 - Access the application: Open your browser and navigate to
-   `http://localhost:5000.`
+   `http://localhost:3000.`
 
 # Project Setup
 
@@ -120,5 +120,5 @@ The Flight Management System is a comprehensive web application designed to stre
 To run this project, you will need to add the following environment variables to your .env file
 
 Set up environment variables:  
-`PORT=5000`   
+`PORT=3000`   
 `JWT_SECRET=your_jwt_secret`
